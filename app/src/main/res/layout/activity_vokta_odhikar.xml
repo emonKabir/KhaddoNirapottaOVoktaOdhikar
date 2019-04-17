@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vokta_odhikar"
+    android:orientation="vertical"
+    >
+
+
+   <!-- <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorWhite"
+        android:dividerHeight="4.0sp"
+        />
+-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="6"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/odhikar"
+       style="@style/cardView"
+            >
+
+            <LinearLayout
+              style="@style/linearInCardView"
+                >
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/odhikar"
+                    />
+                <TextView
+
+                    android:text="@string/odhikar"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/oporadh"
+            style="@style/cardView"
+            >
+
+            <LinearLayout
+               style="@style/linearInCardView"
+                >
+
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/oporadh"
+                    />
+                <TextView
+
+                    android:text="@string/oporadh"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/protikar"
+            style="@style/cardView"
+            >
+
+
+            <LinearLayout
+               style="@style/linearInCardView"
+                >
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/protikar"
+                    />
+                <TextView
+
+                    android:text="@string/protikar"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/dondo"
+            style="@style/cardView"
+            >
+
+
+            <LinearLayout
+               style="@style/linearInCardView"
+                >
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/dondo"
+                    />
+                <TextView
+
+                    android:text="@string/dondo"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/ovijog"
+            style="@style/cardView"
+            >
+
+            <LinearLayout
+                style="@style/linearInCardView"
+                >
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/ovijog"
+                    />
+                <TextView
+
+                    android:text="@string/ovizog"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/jogajog"
+            style="@style/cardView"
+            >
+
+            <LinearLayout
+                style="@style/linearInCardView"
+                >
+
+                <ImageView
+
+                    style="@style/voktaOdhikarImageView"
+                    android:src="@drawable/jogajog"
+                    />
+                <TextView
+
+                    android:text="@string/zogazog"
+                    style="@style/voktaOdhikarTextview"
+
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+   <!-- <Button
+        android:id="@+id/odhikar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/odhikar"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/oporadh"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/oporadh"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/odhikar"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/protikar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/protikar"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/dondo"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/dondo"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/dondo"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/oporadh"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/ovizog"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/ovizog"
+        app:layout_constraintTop_toBottomOf="@+id/protikar"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <Button
+        android:id="@+id/zogazOk"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/zogazog"
+        app:layout_constraintTop_toBottomOf="@+id/ovizog"
+        tools:layout_editor_absoluteX="72dp" />-->
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LikhitoOvijog.LikhitoOvijog"
+    android:background="@color/colorGrey"
+
+
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="55dp"
+
+        >
+
+       <!-- <TextView
+
+            android:id="@+id/addImage"
+            android:paddingTop="10dp"
+            style="@style/textview"
+            android:text="@string/promanSorupVauchar"
+            android:gravity="center_horizontal|center_vertical"
+            android:drawableTop="@drawable/ic_playlist_add_black_24dp"
+            />
+
+
+        <ImageView
+
+            android:id="@+id/showImage"
+            android:layout_height="130dp"
+            android:layout_width="130dp"
+            android:scaleType="centerCrop"
+            />-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/ovizog"
+                android:textSize="20sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+
+                />
+            <TextView
+
+                android:id="@+id/addImage"
+                android:paddingTop="10dp"
+                style="@style/textview"
+                android:text="@string/promanSorupVauchar"
+                android:gravity="center_horizontal|center_vertical"
+                android:drawableTop="@drawable/ic_playlist_add_black_24dp"
+                />
+
+            <ImageView
+
+                android:id="@+id/showImage"
+                android:layout_marginTop="5dp"
+                android:layout_height="200dp"
+                android:layout_width="200dp"
+
+                android:visibility="visible"
+                />
+
+           <!-- <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />-->
+
+           <!-- <GridView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/gv"
+                android:numColumns="4"
+                android:visibility="gone"
+                android:layout_weight="1">
+            </GridView>-->
+
+            <EditText
+                android:id="@+id/protisthanerNaam"
+                style="@style/editText"
+                android:hint="@string/ovijuktoProtisthanerNam"
+                android:gravity="center_horizontal|center_vertical"
+
+
+                />
+
+            <EditText
+                android:id="@+id/protisthanerThikana"
+                style="@style/textview"
+                android:hint="@string/ovijuktoProtisthanerThikana"
+                android:gravity="start"
+                android:padding="5dp"
+
+
+
+                />
+
+            <EditText
+                android:id="@+id/ovijogerBiboron"
+                style="@style/textview"
+                android:hint="@string/ovijogerBiboron"
+                android:gravity="start"
+                android:padding="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/ovijogKarirBiboron"
+                android:textSize="20sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+
+                />
+
+
+            <EditText
+                android:id="@+id/ovijogkarirNaam"
+                style="@style/editText"
+                android:hint="@string/ovijogkarirNaam"
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <EditText
+                    android:id="@+id/pitarNaam"
+                    style="@style/borderLessEditText"
+                    android:hint="@string/pitarNaam"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/matarNaam"
+                    style="@style/borderLessEditText"
+                    android:hint="@string/matarNaam"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/sthayiThikana"
+                style="@style/borderLessLargeEditText"
+                android:hint="@string/sthayiThikana"
+                android:gravity="start"
+                android:padding="5dp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/bortomanThikana"
+                style="@style/textview"
+                android:hint="@string/bortomanThikana"
+                android:gravity="start"
+                android:padding="5dp"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <EditText
+                    android:id="@+id/pesha"
+                    style="@style/borderLessEditText"
+                    android:hint="@string/pesha"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/mobile"
+                    style="@style/editText"
+                    android:hint="@string/mobile"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/borderLessEditText"
+                android:hint="@string/email"
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+
+            <EditText
+                android:id="@+id/jatioPorichoyPotro"
+                style="@style/borderLessEditText"
+                android:hint="@string/jatioPorichoyPotro"
+                android:gravity="center_horizontal|center_vertical"
+
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:text="@string/ovijogKorun"
+        android:textColor="@color/colorWhite"
+        />
+</RelativeLayout>

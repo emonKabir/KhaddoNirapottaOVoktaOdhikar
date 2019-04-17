@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="twentySP">20sp</dimen>
+    <dimen name="imageViewWIdth">80dp</dimen>
+    <dimen name="imageViewMargin">10dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+</resources>
